@@ -1,0 +1,38 @@
+body {
+	box-sizing: border-box;
+	background-color: Gainsboro;
+	font-family: "Times New Roman", Times, sans-serif;
+}
+
+#title h1 {
+	padding-left: 0.125em;
+	margin-top: 0.125em;
+	margin-bottom: 0.375em;
+	background-color: DarkGray;
+	font-size: 2.25em;
+	text-transform: uppercase;
+}
+
+#content {
+	padding-left: 1em;
+	padding-right: 1em;
+	margin-top: 0.125em;
+}
+
+#content h1 {
+	margin-top: 0.125em;
+  margin-bottom: 0.125em;
+	font-size:2.25em;
+	text-transform: uppercase;
+}
+
+#content h4 {
+	padding-left: 0.125em;
+	margin-bottom: 0.375em;
+	font-size: 1em;
+}
+#content p {
+	margin-top: 0.75em;
+	margin-bottom: 0.75em;
+	font-size: 1.25em;
+}
