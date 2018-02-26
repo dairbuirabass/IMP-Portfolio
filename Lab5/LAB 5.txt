@@ -1,0 +1,22 @@
+Based on the article answer to following questions?
+1. What you can do with jQuery?
+jQuery helps web developers easily access all the needed DOM elements and handle events, change properties append other elements and classes in a
+clear and readable fashion. Its function threading approach based on callbacks maintains the code to execute in a desired order and obtains HTML
+dynamic with incomparably less effort.
+
+2. How it can help you as a developer?
+First thing to consider is that vanilla JS works exactly as you code it. This may work on some but not all browsers. The jQuery executes its functions
+using different methods depending on browsers. Multi-browser support.
+Second, it is practically complicated to define your own transitions or small animations in CSS. jQuery provides premade functions with some level of
+control.
+Other minor advantages include - better JSON parsing, plugins, feature detection and use of old-fashion methods (forEach).
+
+3. If you think of our earlier participant 'Person list app' in what kind of issues you could use jQuery;
+
+4. What are CDNs? What kind of benefits you get if you use them?
+CDN stands for Content Delivery Network. Popular websites and web services have a huge number of hosts connecting every second. 
+It causes bottlenecks in server and in client sides. Therefore, there is a technology to help content be geographically spread.
+Content Delivery Networks consist of a number of proxy servers located in different continents, that cache successful requests in its
+own memory by making some of the contents easily accessible for people from certain parts of the world. This technology impacts internet
+performance heavily, affecting the mean latency and traffic flow. Anyone can buy CDN for personal service from different CDN providers such
+as Amazon, Microsoft, CloudFlare etc.
