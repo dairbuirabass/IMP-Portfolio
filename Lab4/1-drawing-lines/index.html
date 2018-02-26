@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Drawing lines</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body onload="docIsLoaded()">
+    <div id="container">
+      <h1>Line drawing app</h1>
+      <p>
+        To draw the line first:
+        <ul>
+          <li>Hold the LMB</li>
+          <li>Keep it down and drag mouse to the ending point</li>
+          <li>Release the mouth</li>
+        </ul>
+      </p>
+      <canvas onmousedown="startDrawLine(event)"
+              onmouseup="releaseMouse(event)"
+              onmousemove="stillDrawingLine(event)"
+              id="mainCanvas" width=720 height=480>
+      </canvas>
+    </div>
+  </body>
+</html>

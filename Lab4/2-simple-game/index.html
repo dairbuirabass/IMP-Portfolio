@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple game</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="js/Box.js"></script>
+    <script src="js/script.js"></script>
+  </head>
+  <body onload="docIsLoaded()">
+    <div id="container">
+      <h1>Score: <span id="score">0</span> — Time: <span id="timer">10</span></h1>
+      <h1>Best score: <span id="bestScore">0</span></h1>
+      <p>Best score is loaded from <i>LocalStorage</i> if the value is defined</p>
+      <canvas onmousedown="userIsClicking(event)"
+              id="mainCanvas" width=720 height=480>
+      </canvas>
+    </div>
+  </body>
+</html>
