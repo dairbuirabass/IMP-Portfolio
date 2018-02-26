@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>WebSocket chat</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <ul id="chatBox">
+      </ul>
+
+      <input id="messageInput" type="text" name="message" value="" placeholder="Write your message here..." autofocus>
+      <button id="buttonSend" onclick="sendMessage()">Send</button>
+      <p id="connectionStatus"></p>
+    </div>
+  </body>
+</html>

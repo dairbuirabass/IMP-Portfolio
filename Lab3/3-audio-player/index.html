@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Audio player</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="script.js"></script>
+  </head>
+  <body onload="docIsLoaded()">
+    <div id="container">
+      <input type="range" min="0" max="100" value="75" class="slider" id="volSlider">
+      <br>
+      <button id="playBtn" onclick="playAudio()">Play</button>
+      <button id="pauseBtn" onclick="pauseAudio()">Pause</button>
+    </div>
+  </body>
+</html>

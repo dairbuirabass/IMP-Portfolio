@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Persons list</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="js/model.js"></script>
+    <script src="js/view.js"></script>
+    <script src="js/controller.js"></script>
+  </head>
+  <body onload="checkLocalStorage()">
+    <div id="content">
+      <label for="nameInput">Name</label>
+      <input id="nameInput" type="text" placeholder="Enter name...">
+      <button onclick="requestAddPerson()">Add Person</button>
+
+      <ul id="listOfPersons">
+      </ul>
+
+    </div>
+  </body>
+</html>
