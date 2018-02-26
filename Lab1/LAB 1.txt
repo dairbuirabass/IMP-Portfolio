@@ -1,0 +1,66 @@
+﻿HTML (Hypertext Markup Language) - is a standardized markup language
+that is transferred via HTTP (Hypertext Transfer Protocol) and displayed accordingly on the user side.
+
+CSS (Cascading Style Sheets) — is a styling language that helps in formatting the HTML elements on the output.
+
+JavaScript - is a scripting language that is capable of performing various client-side tasks (as well as server
+side ones) affecting the HTML/CSS, and is supported by all modern browsers nowadays.
+
+HTTP - Hypertext Transfer Protocol is a protocol which in a sense works as a compiler of HTML text
+
+HTML5 - latest HTML version which mainly intends on deprecating extra add-ins and plug-ins and gathering together
+the three cornerstones of web — JS, CSS and HTML that are meant to be supported anywhere by anyone
+
+Dynamic HTML (DHTML) - is a set of techniques that make web page vary over time. This has nothing to do with
+the back end logic, but is achieved with help of Document Object Model technology, where JS can asynchronously
+affect HTML and CSS.
+
+
+
+Coding conventions is something a programmer must turn into personal routine.
+Sure, I had my conventional habits, but what I would like to point out is:
+1. I write new curly bracket on new line, not on the same e.g.
+  for (var i=0; i<10; i++)
+  {
+    ...
+  }
+  Although, I felt used to it, I am working on giving a popular way its try. So from now on, I'll be trying
+  to use the common indentation
+  for (var i=0; i<10; i++) {
+    ...
+  }
+2. I realized using TABs for indentation is not the best practice therefore double-space is to be used by me!
+3. I am more comfortable with underscore separated variable names such as number_one instead of camel case numberOne.
+  But that is still something I am trying to figure out for myself. I realized it depends also on the programming
+  language itself. For example, In JavaScript people mostly use camelCase. So let's see which one will fit me better
+
+  That's it. I think I am quite comfortable with how I create and tidy my script.
+
+
+  <!DOCTYPE html>
+  <html>
+    <head>
+      <title>Sample page</title>
+    </head>
+    <body>
+      <h1>Sample page</h1>
+      <p>This is a <a href="demo.html">simple</a> sample.</p>
+      <!-- this is a comment -->
+    </body>
+  </html>
+
+
+  To attach an external CSS file we need to add <link> tag and provide path to its 'href' attribute.
+  With JS we use the same script tag but leave its contents empty and just provide path to its 'src' attribute.
+
+  To check if it works I simply called developer tools and checked if sources tab has my files listed in it.
+
+
+
+  So Developer tools I use is from Google Chrome browser, they can be accessed by F12 button or by right clicking
+  the needed element and pressing "Inspect". It has many useful functionalities for exploring certain pages or
+  creating and testing your own. It has responsive features to test it on different mobile devices, list of DOM
+  elements and a way to dynamically change them, JavaScript console, Server console with server request-responses
+  and other security, performance etc. related tabs.
+
+  
