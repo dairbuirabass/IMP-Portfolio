@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Lab 1</title>
+    <!-- Bootstrap core CSS -->
+    <link href="../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom styles for this template -->
+    <link href="../../css/3-col-portfolio.css" rel="stylesheet">
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="../../index.html">Go to main page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About me</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Services</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+      <!-- Page Heading -->
+      <h1 class="my-4">Lab. 1 — Basics</h1>
+      <!-- Task Heading -->
+      <div class="pb-5">
+        <h4>
+          Descriptions and definitions
+        </h4>
+        <p class="lead">
+          <ul class="pl-0 lab-contents-ul">
+            <li class="pt-2">
+              <i>HTML (Hypertext Markup Language)</i> — is a standardized markup language
+              that is transferred via HTTP (Hypertext Transfer Protocol) and displayed on the user side
+            </li>
+            <li class="pt-2">
+              <i>CSS (Cascading Style Sheets)</i> —
+              is a styling language that helps in formatting the HTML elements on the output
+            </li>
+            <li class="pt-2">
+              <i>JavaScript</i> — is a scripting language that is capable of performing various client-side tasks (as well as server
+              side ones) affecting the HTML/CSS, and is supported by all modern browsers nowadays
+            </li>
+            <li class="pt-2">
+              <i>HTTP</i> — Hypertext Transfer Protocol is a protocol which in a certain manner works as a compiler for HTML text
+            </li>
+            <li class="pt-2">
+              <i>HTML5</i> — latest HTML version which mainly intends on restricting extra add-ins and plug-ins and gathering together
+              three pillars of web — <i>JS, CSS and HTML</i> that are aimed to be supported globally
+            </li>
+            <li class="pt-2">
+              <i>Dynamic HTML (DHTML)</i> — is a set of techniques that make web page vary without reloading. This has nothing to do with
+              backend logic, but is achieved with help of <i>Document Object Model</i> architecture, where JS can asynchronously
+              affect HTML and CSS
+            </li>
+          </ul>
+        </p>
+      </div>
+
+      <!-- Task Heading -->
+      <div class="pb-5">
+        <h4>
+          Coding conventions
+        </h4>
+        <p class="">
+          <i>"Coding conventions"</i> is something programmer must turn into personal routine.
+          Sure I had my conventional habits, but what I would like to point out is:
+          <ul class="lab-contents-ul">
+            <li class="pt-2">
+              <strong>1.</strong> I write new curly bracket on new line, not on the same e.g.
+              <pre><code>
+                for (var i=0; i<10; i++)
+                {
+                  ...
+                }
+              </code></pre>
+              Although, I felt used to it, I am working on giving a popular way its try. So from now on, I'll be trying
+              to use the common indentation
+              <pre><code>
+                for (var i=0; i<10; i++) {
+                  ...
+                }
+              </code></pre>
+            </li>
+            <li class="pt-2">
+              <strong>2.</strong> I realized using <i>TABs</i>
+              for indentation is not the best practice therefore double-space is to be used by me!
+            </li>
+            <li class="pt-2">
+              <strong>3.</strong> I am more comfortable with underscore separated variable names such as number_one instead of camel case numberOne.
+              But that is still something I am trying to figure out for myself. I realized it depends also on the programming
+              language itself. For example, In JavaScript people mostly use camelCase. So let's see which one will fit me better
+            </li>
+          </ul>
+          That's it. I think I am quite comfortable with how I create and take care of my code.
+        </p>
+      </div>
+
+      <!-- Task Heading -->
+      <div class="pb-5">
+        <h4>
+          Attachment 1. Persons list
+          <small class="ml-2"><a href="1-personslist">Click to see result</a></small>
+        </h4>
+        <p class="lead">
+          A simple web page demonstrating Dynamic HTML with <i>js</i> manipulation of inputs and events
+        </p>
+      </div>
+
+      <!-- Task Heading -->
+      <div class="pb-5">
+        <h4>
+          Attachment 2. Persons list with MVC architecture
+          <small class="ml-2"><a href="2-personslist_mvc">Click to see result</a></small>
+        </h4>
+        <p class="lead">
+          Same functionality is achieved deploying <i>Model-View-Controller</i> type of software development strategy.
+          This relies on defining the abstraction layer between what user sees (View) and where data comes from (Model).
+          The intermediate <i>Controller</i> separates the layers and matintaing logical operations. This is also useful
+          in development teams where workload should be divided by files.
+        </p>
+      </div>
+
+      <!-- Task Heading -->
+      <div class="pb-5">
+        <p>
+          <a class="lead" href="https://github.com/dairbuirabass/IMP-Portfolio/releases/tag/v0.1">Source code for Lab 1 exercise (release)</a>
+          <br>
+          <a class="lead" href="https://github.com/dairbuirabass/IMP-Portfolio/tree/master/Lab1">Or just the code from GitHub</a>
+        </p>
+      </div>
+    </div>
+    <!-- /.container -->
+
+    <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-center text-white">Copyright &copy; Dair Baidauletov 2018<br>
+          <small>All the figures from <a class="text-light" href="https://www.lynda.com">Lynda.com</a></small>
+        </p>
+      </div>
+      <!-- /.container -->
+    </footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../../vendor/jquery/jquery.min.js"></script>
+    <script src="../../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="../../vendor/greensock-js/src/minified/TweenLite.min.js"></script>
+    <script src="../../js/script.js"></script>
+
+  </body>
+
+</html>
